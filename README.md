@@ -1,4 +1,4 @@
-# Kullanılan Kütüphaneler
+# Used Libraries
 
 - axios
 - millify
@@ -11,63 +11,63 @@
 - tailwind
 - splide-slice
 
-## 🎬 Film Projesi - TMDB API Entegrasyonu
+## 🎬 Movie Project - TMDB API Integration
 
-### 📜 Proje Açıklaması
-TMDB API kullanılarak geliştirilen bu proje, popüler film ve dizi bilgilerini sunan dinamik bir web uygulamasıdır. Kullanıcılar film detaylarına ulaşabilir, fragman izleyebilir ve içerikleri kategorilere göre filtreleyebilir.
+### 📜 Project Description
+This project, developed using the TMDB API, is a dynamic web application that provides information about popular movies and TV shows. Users can access movie details, watch trailers, and filter content by categories.
 
-### 🌟 Öne Çıkan Özellikler
-- Gerçek zamanlı film/dizi verileri
-- Responsive ve modern UI tasarım
-- Detaylı içerik sayfaları
-- Video fragman oynatıcı entegrasyonu
-- Gelişmiş arama ve filtreleme
-- Redux ile state yönetimi
-- Optimize edilmiş performans
+### 🌟 Key Features
+- Real-time movie/TV show data
+- Responsive and modern UI design
+- Detailed content pages
+- Video trailer player integration
+- Advanced search and filtering
+- State management with Redux
+- Optimized performance
 
-### 🛠 Kullanılan Teknolojiler
+### 🛠 Technologies Used
 **Frontend:**
 - **State Management:** React-Redux, Redux-Thunk
 - **Routing:** React-Router-DOM v6
-- **Styling:** Tailwind CSS + Özel Animasyonlar
+- **Styling:** Tailwind CSS + Custom Animations
 - **Utilities:** Axios, Millify, React-Icons
 - **Slider:** Splide.js
 
-**Backend Entegrasyon:**
+**Backend Integration:**
 - TMDB API v3
-- JWT Auth ile güvenli bağlantı
+- Secure connection with JWT Auth
 
-### 🚀 Kurulum
-1. Repoyu klonlayın:
+### 🚀 Installation
+1. Clone the repository:
 ```bash
 git clone [https://github.com/omerffae/netflix-clone-v2.git]
 ```
-2. Bağımlılıkları yükleyin:
+2. Install dependencies:
 ```bash
 npm install
 ```
-3. Ortam değişkenlerini ayarlayın:
+3. Set up environment variables:
 ```bash
-VITE_API_KEY="TMDB_API_KEYINIZ"
+VITE_API_KEY="YOUR_TMDB_API_KEY"
 ```
 
-### 🖥 Çalıştırma
+### 🖥 Running the Project
 ```bash
 npm run dev
 ```
 
-### 📂 Proje Yapısı
+### 📂 Project Structure
 ```
 src/
-├── components/  # Reaktif UI bileşenleri
-├── utils/       # API config ve yardımcı fonksiyonlar
-├── redux/       # Store, actions ve reducers
-├── assets/      # Static dosyalar
-└── routes/      # Sayfa routing yapılandırması
+├── components/  # Reactive UI components
+├── utils/       # API config and helper functions
+├── redux/       # Store, actions, and reducers
+├── assets/      # Static files
+└── routes/      # Page routing configuration
 ```
 
-### 🤝 Katkıda Bulunma
-1. Fork'layın ve branch oluşturun (`git checkout -b feature/fooBar`)
-2. Değişikliklerinizi commit'leyin (`git commit -am 'Add some fooBar'`)
-3. Push yapın (`git push origin feature/fooBar`)
-4. Pull Request açın
+### 🤝 Contributing
+1. Fork the repository and create a branch (`git checkout -b feature/fooBar`)
+2. Commit your changes (`git commit -am 'Add some fooBar'`)
+3. Push to the branch (`git push origin feature/fooBar`)
+4. Open a Pull Request
