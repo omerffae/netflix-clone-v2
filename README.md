@@ -11,6 +11,8 @@
 - tailwind
 - splide-slice
 
+![Proje Görseli](/public/netflix-clone-v2.gif)
+
 ## 🎬 Movie Project - TMDB API Integration
 
 ### 📜 Project Description
